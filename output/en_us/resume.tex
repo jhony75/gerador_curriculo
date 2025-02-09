@@ -1,0 +1,175 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Header Section
+\begin{center}
+  \textbf{\Huge \scshape Jônatas Lima de Medeiros } \\
+  \small (+5511) 98470-7016 | \href{mailto:jonatas.lima.medeiros@live.com }{\underline{jonatas.lima.medeiros@live.com}} | \href{linkedin.com/in/jonatas-lima-de-medeiros }{\underline{LinkedIn}}
+\end{center}
+
+% Education Section
+
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {FIAP - Faculdade de Informática e Administração Paulista}{2018 - 2022}{Bachelor's Degree in Information Systems}{}
+  
+    \resumeSubheading
+      {PUC - Pontifícia Universidade Católica do Paraná}{2023}{Postgraduate Lato Sensu - Specialization in Software Architecture, Data Science, and Cybersecurity}{}
+  
+  \resumeSubHeadingListEnd
+
+
+% Experience Section
+
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {GFT}{Sep 2024 - Jan 2025}{Salesforce Developer}{}
+      \resumeItemListStart
+        \resumeItem{Responsible for working on a large-scale project in the financial sector, focusing on simplifying internal processes for system users. Developed new features, advanced customizations on the Salesforce platform, and robust integrations with external systems, ensuring the delivery of scalable and high-quality solutions.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Fundação FAT}{Jun 2024 - Nov 2024}{Salesforce Development Instructor}{}
+      \resumeItemListStart
+        \resumeItem{Instructor for three Salesforce Development classes, focusing on preparing students for the job market and the Platform Developer 1 certification. Planned practical lessons, developed applied projects, and tailored content to ensure students acquired the necessary skills to advance in their careers.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {JFOX}{Jun 2024 - Sep 2024}{Salesforce Developer}{}
+      \resumeItemListStart
+        \resumeItem{Led integration initiatives with SAP, doubling the capacity of a transaction integration class. Participated in restructuring the ticket opening process, introducing test scenarios, Definition of Done, and Definition of Ready, as well as collaborating on code reviews and deployments to staging and production environments.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {BRQ}{Nov 2023 - May 2024}{Salesforce Developer}{}
+      \resumeItemListStart
+        \resumeItem{Worked on the development project for client onboarding at Julius Baer Family Office. Developed robust functionalities using Salesforce core to avoid unnecessary customizations, refactored classes to improve performance and security, and contributed to project architecture discussions. My work also included codebase standardization across squads via Git.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {NTT Data}{Apr 2023 - Nov 2023}{Salesforce Developer}{}
+      \resumeItemListStart
+        \resumeItem{Developed features in Health Cloud and Community Cloud for SulAmérica Seguros clients, creating solutions that significantly improved user experience. One of the key milestones was the go-live of a Coordinated Specialty feature, with a projected financial impact of over 1 million BRL in annual fraud savings and greater efficiency in analyzing complex medical cases.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Sottelli}{Dec 2022 - Apr 2023}{Salesforce Developer}{}
+      \resumeItemListStart
+        \resumeItem{Worked on support projects focusing on integrations between Salesforce and Oracle EBS. Reduced the average response time for integration-related tickets, handling and resolving about three tickets per hour. Developed an integration with the Central Bank of Brazil's PTAX API, automatically updating data in the Salesforce org.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Fielo}{May 2021 - Nov 2022}{Salesforce Intern and Trainee}{}
+      \resumeItemListStart
+        \resumeItem{Started as an intern, deepening my knowledge of the Salesforce platform. Later, as a trainee, participated in challenging projects focused on developing custom solutions to meet specific client needs. Worked on developing custom functionalities and improving platform performance, collaborating with the team to deliver high-impact solutions. This experience solidified my Salesforce foundation and propelled my growth as a developer.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {CNA}{2019 - 2024}{English Teacher and Academic Coordinator}{}
+      \resumeItemListStart
+        \resumeItem{Started as an English Teacher in 2019 and was promoted to Academic Coordinator within the same year due to my positive impact on student performance, deep knowledge of teaching materials, and dedication to helping students facing learning difficulties. During the pandemic, I paused teaching and returned in 2021, focusing on the teacher role. Simultaneously, I supported academic and administrative coordination, strengthening relationships with students and parents while recovering educational setbacks caused by remote learning. Developed a grading system that standardized activity correction, ensuring fairness and incorporating specific criteria for each level and Business Intelligence tools. By 2023, my dedication and positive impact led me back to the position of Academic Coordinator in two units, structuring clear communication with stakeholders, creating action plans for underperforming students, implementing communication standards, and training programs to improve team performance.} 
+      \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+
+
+\end{document}

@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\begin{document}
+
+\section*{((( data.contact.name )))}
+\textbf{Contato:} \href{mailto:((( data.contact.email )))}{((( data.contact.email )))} \\
+Telefone: ((( data.contact.phone ))) \\
+LinkedIn: \href{https://((( data.contact.linkedin )))\ }{((( data.contact.linkedin )))}
+
+\section*{Experiências Profissionais}
+((* for experience in data.experiences *))
+\textbf{((( experience.title )))} \\
+((( experience.company ))) (((( experience.duration )))) \\
+((( experience.description ))) \\ \\
+((* endfor *))
+
+\section*{Formação Acadêmica}
+((* for edu in data.education *))
+\textbf{((( edu.degree )))} \\
+((( edu.institution ))), ((( edu.year ))) \\ \\
+((* endfor *))
+
+\end{document}
+

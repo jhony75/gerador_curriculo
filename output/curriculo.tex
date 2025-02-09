@@ -1,0 +1,173 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Header Section
+\begin{center}
+  \textbf{\Huge \scshape Jônatas Lima de Medeiros } \\
+  \small (+5511) 98470-7016 | \href{mailto:jonatas.lima.medeiros@live.com }{\underline{jonatas.lima.medeiros@live.com}} | \href{linkedin.com/in/jonatas-lima-de-medeiros }{\underline{LinkedIn}}
+\end{center}
+
+% Education Section
+
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {FIAP - Faculdade de Informática e Adminstração Paulista}{2018 - 2022}{Bacharelado em Sistemas de Informação}{} 
+  
+    \resumeSubheading
+      {PUC - Pontificía Universidade Católica do Paraná}{2023}{Pós Graduação Latu Sensu - Especialização em Arquitetura de Software, Ciência de Dados e Cybersecurity}{}
+  
+  \resumeSubHeadingListEnd
+
+% Experience Section
+
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {GFT}{Set 2024 - Jan 2025}{Desenvolvedor Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Responsável por atuar em um projeto de grande porte no setor financeiro, com foco na simplificação de processos internos para os usuários do sistema. Realizei o desenvolvimento de novas funcionalidades, customizações avançadas na plataforma Salesforce e integrações robustas com sistemas externos, garantindo a entrega de soluções escaláveis e de alta qualidade.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Fundação FAT}{Jun 2024 - Nov 2024}{Professor de Desenvolvimento Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Instrutor de três turmas de Desenvolvimento Salesforce, com foco em preparar alunos para o mercado de trabalho e para a certificação Platform Developer 1. Planejei aulas práticas, desenvolvi projetos aplicados e personalizei conteúdos para garantir que os alunos adquirissem as habilidades necessárias para avançar em suas carreiras.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {JFOX}{Jun 2024 - Set 2024}{Desenvolvedor Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Liderei iniciativas de integração com SAP, aumentando a capacidade de uma classe de integração de transações em 100\%. Participei da reestruturação de processos de abertura de tickets, introduzindo cenários de teste, Definition of Done e Definition of Ready, além de colaborar com code reviews e deploys para homologação e produção.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {BRQ}{Nov 2023 - Mai 2024}{Desenvolvedor Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Atuei no projeto de desenvolvimento do onboarding de clientes para o Julius Baer Family Office. Desenvolvi funcionalidades robustas utilizando o core da plataforma Salesforce para evitar customizações desnecessárias, refatorei classes para melhoria de desempenho e segurança, e contribuí com discussões sobre arquitetura do projeto. Meu trabalho também incluiu a equalização de bases de código entre squads via Git.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {NTT Data}{Abr 2023 - Nov 2023}{Desenvolvedor Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Desenvolvi funcionalidades no Health Cloud e Community Cloud para clientes da SulAmérica Seguros, criando soluções que melhoraram significativamente a experiência do usuário. Um dos principais marcos foi o go live de uma Especialidade Coordenada, com impacto financeiro projetado de mais de 1 milhão de reais anuais em economia de fraudes e maior eficiência na análise de casos médicos complexos.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Sottelli}{Dez 2022 - Abr 2023}{Desenvolvedor Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Trabalhei em projetos de sustentação com foco em integrações entre Salesforce e Oracle EBS. Reduzi o tempo médio de resposta de tickets para integrações, atendendo e solucionando cerca de três tickets por hora. Desenvolvi uma integração com a API PTAX do Banco Central do Brasil, atualizando dados automaticamente na org Salesforce.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Fielo}{Mai 2021 - Nov 2022}{Estagiário e Trainee de Salesforce}{}
+      \resumeItemListStart
+        \resumeItem{Durante minha jornada na Fielo, comecei como estagiário, aprofundando meu conhecimento na plataforma Salesforce. Posteriormente, como trainee, participei de projetos desafiadores focados no desenvolvimento de soluções personalizadas para atender às necessidades específicas dos clientes. Trabalhei no desenvolvimento de funcionalidades personalizadas e no aprimoramento do desempenho da plataforma, colaborando com a equipe para entregar soluções de alto impacto. Esta experiência consolidou minha base em Salesforce e impulsionou meu crescimento como desenvolvedor.} 
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {CNA}{2019 - 2024}{Professor de Inglês e Coordenador Pedagógico}{}
+      \resumeItemListStart
+        \resumeItem{Iniciei como Professor de Inglês em 2019, sendo promovido a Coordenador Pedagógico ainda no mesmo ano devido ao impacto positivo no desempenho dos alunos, profundo domínio do material didático e dedicação ao ensino, especialmente com alunos que enfrentavam dificuldades de aprendizado. Durante a pandemia, interrompi minhas atividades de ensino, retornando em 2021 focado no cargo de professor. Paralelamente, ofereci suporte à coordenação pedagógica e administrativa, estreitando o relacionamento com alunos e responsáveis, além de recuperar prejuízos educacionais causados pelo período remoto. Desenvolvi um sistema de cálculo de notas que padronizou a correção de atividades, promovendo justiça e incorporando critérios específicos para cada nível e ferramentas de Business Intelligence. Até 2023, minha dedicação e impacto positivo me levaram novamente à posição de Coordenador Pedagógico em duas unidades, estruturando uma linha de comunicação clara com stakeholders, criando planos de ação para alunos com desempenho abaixo do esperado, implementando padrões de comunicação e treinamentos para melhorar a performance da equipe.} 
+      \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+
+\end{document}
