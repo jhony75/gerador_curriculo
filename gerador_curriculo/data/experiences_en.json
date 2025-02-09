@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Salesforce Developer",
+      "company": "GFT",
+      "duration": "Sep 2024 - Jan 2025",
+      "description": "Responsible for working on a large-scale project in the financial sector, focusing on simplifying internal processes for system users. Developed new features, advanced customizations on the Salesforce platform, and robust integrations with external systems, ensuring the delivery of scalable and high-quality solutions.",
+      "tags": ["Salesforce", "integrations", "financial sector", "development"],
+      "duties": [
+        "Apex development",
+        "Integration with external systems",
+        "Technical leadership"
+      ]
+    },
+    {
+      "title": "Salesforce Development Instructor",
+      "company": "Fundação FAT",
+      "duration": "Jun 2024 - Nov 2024",
+      "description": "Instructor for three Salesforce Development classes, focusing on preparing students for the job market and the Platform Developer 1 certification. Planned practical lessons, developed applied projects, and tailored content to ensure students acquired the necessary skills to advance in their careers.",
+      "tags": ["teaching", "Salesforce", "certification", "education"]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "JFOX",
+      "duration": "Jun 2024 - Sep 2024",
+      "description": "Led integration initiatives with SAP, doubling the capacity of a transaction integration class. Participated in restructuring the ticket opening process, introducing test scenarios, Definition of Done, and Definition of Ready, as well as collaborating on code reviews and deployments to staging and production environments.",
+      "tags": ["Salesforce", "SAP", "integrations", "processes"]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "BRQ",
+      "duration": "Nov 2023 - May 2024",
+      "description": "Worked on the development project for client onboarding at Julius Baer Family Office. Developed robust functionalities using Salesforce core to avoid unnecessary customizations, refactored classes to improve performance and security, and contributed to project architecture discussions. My work also included codebase standardization across squads via Git.",
+      "tags": ["Salesforce", "onboarding", "software architecture", "development"]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "NTT Data",
+      "duration": "Apr 2023 - Nov 2023",
+      "description": "Developed features in Health Cloud and Community Cloud for SulAmérica Seguros clients, creating solutions that significantly improved user experience. One of the key milestones was the go-live of a Coordinated Specialty feature, with a projected financial impact of over 1 million BRL in annual fraud savings and greater efficiency in analyzing complex medical cases.",
+      "tags": ["Salesforce", "Health Cloud", "Community Cloud", "healthcare sector"]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "Sottelli",
+      "duration": "Dec 2022 - Apr 2023",
+      "description": "Worked on support projects focusing on integrations between Salesforce and Oracle EBS. Reduced the average response time for integration-related tickets, handling and resolving about three tickets per hour. Developed an integration with the Central Bank of Brazil's PTAX API, automatically updating data in the Salesforce org.",
+      "tags": ["Salesforce", "integrations", "automation", "support"]
+    },
+    {
+      "title": "Salesforce Intern and Trainee",
+      "company": "Fielo",
+      "duration": "May 2021 - Nov 2022",
+      "description": "Started as an intern, deepening my knowledge of the Salesforce platform. Later, as a trainee, participated in challenging projects focused on developing custom solutions to meet specific client needs. Worked on developing custom functionalities and improving platform performance, collaborating with the team to deliver high-impact solutions. This experience solidified my Salesforce foundation and propelled my growth as a developer.",
+      "tags": ["Salesforce", "customization", "professional growth", "development"]
+    },
+    {
+      "title": "English Teacher and Academic Coordinator",
+      "company": "CNA",
+      "duration": "2019 - 2024",
+      "description": "Started as an English Teacher in 2019 and was promoted to Academic Coordinator within the same year due to my positive impact on student performance, deep knowledge of teaching materials, and dedication to helping students facing learning difficulties. During the pandemic, I paused teaching and returned in 2021, focusing on the teacher role. Simultaneously, I supported academic and administrative coordination, strengthening relationships with students and parents while recovering educational setbacks caused by remote learning. Developed a grading system that standardized activity correction, ensuring fairness and incorporating specific criteria for each level and Business Intelligence tools. By 2023, my dedication and positive impact led me back to the position of Academic Coordinator in two units, structuring clear communication with stakeholders, creating action plans for underperforming students, implementing communication standards, and training programs to improve team performance.",
+      "tags": [
+        "teaching",
+        "English Teaching",
+        "Academic Coordination",
+        "Post-Pandemic Educational Recovery",
+        "Educational Tool Development",
+        "Stakeholder Communication",
+        "Strategic Educational Planning",
+        "Team Training and Development",
+        "Business Intelligence Tools",
+        "Student and Parent Relations",
+        "Educational Management"
+      ]
+    }
+]

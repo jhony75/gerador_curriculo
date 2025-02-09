@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Desenvolvedor Salesforce",
+      "company": "GFT",
+      "duration": "Set 2024 - Jan 2025",
+      "description": "Responsável por atuar em um projeto de grande porte no setor financeiro, com foco na simplificação de processos internos para os usuários do sistema. Realizei o desenvolvimento de novas funcionalidades, customizações avançadas na plataforma Salesforce e integrações robustas com sistemas externos, garantindo a entrega de soluções escaláveis e de alta qualidade.",
+      "tags": ["salesforce", "integracoes", "setor financeiro", "desenvolvimento"],
+      "duties": [
+        "Desenvolvimento Apex",
+        "Integração com sistemas externos",
+        "Liderança técnica"
+      ]
+    },
+    {
+      "title": "Professor de Desenvolvimento Salesforce",
+      "company": "Fundação FAT",
+      "duration": "Jun 2024 - Nov 2024",
+      "description": "Instrutor de três turmas de Desenvolvimento Salesforce, com foco em preparar alunos para o mercado de trabalho e para a certificação Platform Developer 1. Planejei aulas práticas, desenvolvi projetos aplicados e personalizei conteúdos para garantir que os alunos adquirissem as habilidades necessárias para avançar em suas carreiras.",
+      "tags": ["ensino", "salesforce", "certificação", "educação"]
+    },
+    {
+      "title": "Desenvolvedor Salesforce",
+      "company": "JFOX",
+      "duration": "Jun 2024 - Set 2024",
+      "description": "Liderei iniciativas de integração com SAP, aumentando a capacidade de uma classe de integração de transações em 100%. Participei da reestruturação de processos de abertura de tickets, introduzindo cenários de teste, Definition of Done e Definition of Ready, além de colaborar com code reviews e deploys para homologação e produção.",
+      "tags": ["salesforce", "SAP", "integrações", "processos"]
+    },
+    {
+      "title": "Desenvolvedor Salesforce",
+      "company": "BRQ",
+      "duration": "Nov 2023 - Mai 2024",
+      "description": "Atuei no projeto de desenvolvimento do onboarding de clientes para o Julius Baer Family Office. Desenvolvi funcionalidades robustas utilizando o core da plataforma Salesforce para evitar customizações desnecessárias, refatorei classes para melhoria de desempenho e segurança, e contribuí com discussões sobre arquitetura do projeto. Meu trabalho também incluiu a equalização de bases de código entre squads via Git.",
+      "tags": ["salesforce", "onboarding", "arquitetura de software", "desenvolvimento"]
+    },
+    {
+      "title": "Desenvolvedor Salesforce",
+      "company": "NTT Data",
+      "duration": "Abr 2023 - Nov 2023",
+      "description": "Desenvolvi funcionalidades no Health Cloud e Community Cloud para clientes da SulAmérica Seguros, criando soluções que melhoraram significativamente a experiência do usuário. Um dos principais marcos foi o go live de uma Especialidade Coordenada, com impacto financeiro projetado de mais de 1 milhão de reais anuais em economia de fraudes e maior eficiência na análise de casos médicos complexos.",
+      "tags": ["salesforce", "Health Cloud", "Community Cloud", "setor de saúde"]
+    },
+    {
+      "title": "Desenvolvedor Salesforce",
+      "company": "Sottelli",
+      "duration": "Dez 2022 - Abr 2023",
+      "description": "Trabalhei em projetos de sustentação com foco em integrações entre Salesforce e Oracle EBS. Reduzi o tempo médio de resposta de tickets para integrações, atendendo e solucionando cerca de três tickets por hora. Desenvolvi uma integração com a API PTAX do Banco Central do Brasil, atualizando dados automaticamente na org Salesforce.",
+      "tags": ["salesforce", "integrações", "automação", "sustentação"]
+    },
+    {
+      "title": "Estagiário e Trainee de Salesforce",
+      "company": "Fielo",
+      "duration": "Mai 2021 - Nov 2022",
+      "description": "Durante minha jornada na Fielo, comecei como estagiário, aprofundando meu conhecimento na plataforma Salesforce. Posteriormente, como trainee, participei de projetos desafiadores focados no desenvolvimento de soluções personalizadas para atender às necessidades específicas dos clientes. Trabalhei no desenvolvimento de funcionalidades personalizadas e no aprimoramento do desempenho da plataforma, colaborando com a equipe para entregar soluções de alto impacto. Esta experiência consolidou minha base em Salesforce e impulsionou meu crescimento como desenvolvedor.",
+      "tags": ["salesforce", "personalização", "crescimento profissional", "desenvolvimento"]
+    },
+    {
+      "title": "Professor de Inglês e Coordenador Pedagógico",
+      "company": "CNA",
+      "duration": "2019 - 2024",
+      "description": "Iniciei como Professor de Inglês em 2019, sendo promovido a Coordenador Pedagógico ainda no mesmo ano devido ao impacto positivo no desempenho dos alunos, profundo domínio do material didático e dedicação ao ensino, especialmente com alunos que enfrentavam dificuldades de aprendizado. Durante a pandemia, interrompi minhas atividades de ensino, retornando em 2021 focado no cargo de professor. Paralelamente, ofereci suporte à coordenação pedagógica e administrativa, estreitando o relacionamento com alunos e responsáveis, além de recuperar prejuízos educacionais causados pelo período remoto. Desenvolvi um sistema de cálculo de notas que padronizou a correção de atividades, promovendo justiça e incorporando critérios específicos para cada nível e ferramentas de Business Intelligence. Até 2023, minha dedicação e impacto positivo me levaram novamente à posição de Coordenador Pedagógico em duas unidades, estruturando uma linha de comunicação clara com stakeholders, criando planos de ação para alunos com desempenho abaixo do esperado, implementando padrões de comunicação e treinamentos para melhorar a performance da equipe.",
+      "tags": [
+        "ensino",
+        "Ensino de Inglês",
+        "Coordenação Pedagógica",
+        "Recuperação Educacional Pós-Pandemia",
+        "Desenvolvimento de Ferramentas Educacionais",
+        "Comunicação com Stakeholders",
+        "Planejamento Estratégico Educacional",
+        "Treinamento e Desenvolvimento de Equipes",
+        "Ferramentas de Business Intelligence",
+        "Relacionamento com Alunos e Responsáveis",
+        "Gestão Pedagógica"
+      ]
+    }
+]
